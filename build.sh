@@ -12,6 +12,7 @@ set -e
 #  parameters, will print the full command, with credentials, in the build logs.
 # set -x
 
+echo "this is tulsi's branch"
 echo " second test"
 echo $KOKORO_GITHUB_COMMIT
 if [ "$1" == "release" ]; then
