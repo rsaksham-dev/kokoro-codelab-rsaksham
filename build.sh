@@ -12,7 +12,7 @@ set -e
 #  parameters, will print the full command, with credentials, in the build logs.
 # set -x
 
-
+echo " second test"
 echo $KOKORO_GITHUB_COMMIT
 if [ "$1" == "release" ]; then
   javac -g:none Hello.java
